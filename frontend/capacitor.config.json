@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.metrologyscanner",
+  "appName": "Legal Metrology Scanner",
+  "webDir": "dist",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
