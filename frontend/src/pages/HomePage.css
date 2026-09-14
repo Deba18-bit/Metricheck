@@ -418,13 +418,4 @@
 .cam-t-row span:last-child { color: var(--c-blue); font-weight: 800; }
 .cam-t-row.c-green span:last-child { color: var(--c-green); }
 
-/* Mobile overrides */
-@media (max-width: 768px) {
-  .cine-text-block { max-width: 80vw; left: 10vw; right: 10vw; text-align: center; align-items: center; }
-  .cine-text-block--right { right: 10vw; left: 10vw; }
-  .cine-h1 { font-size: clamp(32px, 10vw, 48px); }
-  .cine-h2 { font-size: clamp(24px, 8vw, 36px); }
-  .pkg-3d-scene { transform: scale(0.8); }
-  .cine-phone-overlay { transform: scale(0.7); }
-  .cam-telemetry { left: 4vw; width: 180px; transform: scale(0.8) translateY(-50%); transform-origin: left center; }
-}
+

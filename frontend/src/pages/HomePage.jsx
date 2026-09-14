@@ -27,7 +27,9 @@ const plateau = (val, inS, inE, outS, outE) => {
   return 1;
 };
 
-export default function HomePage({ onStart }) {
+import MobileHomePage from "./MobileHomePage";
+
+function DesktopHomePage({ onStart }) {
   const [progress, setProgress] = useState(0);
   const trackRef = useRef(null);
 
@@ -852,4 +854,20 @@ function Scene13Final({ progress, onStart }) {
       </div>
     </div>
   );
+}
+
+export default function HomePage({ onStart }) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (isMobile) {
+    return <MobileHomePage onStart={onStart} />;
+  }
+
+  return <DesktopHomePage onStart={onStart} />;
 }
