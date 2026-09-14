@@ -1,0 +1,11 @@
+backend/
+ml/
+docs/
+data/
+.venv/
+.pytest_cache/
+*.DS_Store
+*.md
+*.patch
+*.js
+

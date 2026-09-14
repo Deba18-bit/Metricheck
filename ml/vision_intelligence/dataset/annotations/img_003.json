@@ -1,0 +1,12 @@
+{
+  "image_id": "img_003.jpg",
+  "width": 151,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BEVERAGES",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.95
+  },
+  "annotations": []
+}

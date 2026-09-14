@@ -1,0 +1,24 @@
+{
+  "image_id": "img_001.jpg",
+  "width": 275,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "DAIRY",
+    "imported_status": "UNKNOWN",
+    "confidence": 0.95
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        56.65,
+        263.2,
+        165.0,
+        282.8
+      ],
+      "ocr_text": "fromage frais",
+      "source": "gemini-flash-latest"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "image_id": "img_006.jpg",
+  "width": 400,
+  "height": 204,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BISCUITS",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.98
+  },
+  "annotations": [
+    {
+      "field": "MRP",
+      "bbox": [
+        287.59999999999997,
+        22.032,
+        334.4,
+        48.348
+      ],
+      "ocr_text": "\u20b910/-",
+      "source": "gemini-flash-latest"
+    },
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        179.6,
+        119.74799999999999,
+        317.6,
+        145.85999999999999
+      ],
+      "ocr_text": "Original Gluco Biscuits",
+      "source": "gemini-flash-latest"
+    }
+  ]
+}

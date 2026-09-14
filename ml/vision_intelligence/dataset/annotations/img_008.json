@@ -1,0 +1,35 @@
+{
+  "image_id": "img_008.jpg",
+  "width": 400,
+  "height": 317,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BISCUITS",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.98
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        57.599999999999994,
+        96.051,
+        82.39999999999999,
+        116.339
+      ],
+      "ocr_text": "Flavoured\nSandwich\nBiscuit",
+      "source": "gemini-flash-latest"
+    },
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        101.6,
+        212.70700000000002,
+        172.8,
+        253.28300000000002
+      ],
+      "ocr_text": "CREME\nBISCUIT\nWITH\nCHOCOLATE",
+      "source": "gemini-flash-latest"
+    }
+  ]
+}

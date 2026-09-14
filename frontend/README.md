@@ -9,6 +9,20 @@ npm run dev
 
 Open the Vite URL shown in the terminal.
 
+## Deploy to Vercel
+
+Set the Vercel project **Root Directory** to `frontend`, then use the
+following build settings:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Install command: `npm ci`
+
+Add `VITE_API_BASE_URL` as a Vercel environment variable for Preview and
+Production, pointing to the deployed FastAPI base URL (without a trailing
+slash), for example `https://api.example.com`. Local development falls back
+to `http://localhost:8000`.
+
 ## Included demo flow
 
 1. Landing / Scan page

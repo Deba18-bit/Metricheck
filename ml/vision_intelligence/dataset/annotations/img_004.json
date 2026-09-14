@@ -1,0 +1,24 @@
+{
+  "image_id": "img_004.jpg",
+  "width": 371,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BISCUITS",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.98
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        226.31,
+        279.59999999999997,
+        350.966,
+        302.0
+      ],
+      "ocr_text": "Original Gluco Biscuits",
+      "source": "gemini-flash-latest"
+    }
+  ]
+}

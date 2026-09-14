@@ -1,0 +1,24 @@
+{
+  "image_id": "img_009.jpg",
+  "width": 400,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BEVERAGES",
+    "imported_status": "UNKNOWN",
+    "confidence": 0.95
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        142.0,
+        226.39999999999998,
+        256.8,
+        241.6
+      ],
+      "ocr_text": "ENERGY DRINK",
+      "source": "gemini-3.6-flash"
+    }
+  ]
+}

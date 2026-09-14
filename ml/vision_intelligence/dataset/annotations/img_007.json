@@ -1,0 +1,46 @@
+{
+  "image_id": "img_007.jpg",
+  "width": 204,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BEVERAGES",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.98
+  },
+  "annotations": [
+    {
+      "field": "NET_QUANTITY",
+      "bbox": [
+        127.908,
+        188.79999999999998,
+        140.55599999999998,
+        198.4
+      ],
+      "ocr_text": "250 ml",
+      "source": "gemini-3.6-flash"
+    },
+    {
+      "field": "MRP",
+      "bbox": [
+        128.52,
+        197.6,
+        138.51600000000002,
+        208.8
+      ],
+      "ocr_text": "\u20b920",
+      "source": "gemini-3.6-flash"
+    },
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        65.484,
+        206.4,
+        126.072,
+        279.59999999999997
+      ],
+      "ocr_text": "STING ENERGY",
+      "source": "gemini-3.6-flash"
+    }
+  ]
+}

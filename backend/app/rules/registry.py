@@ -1,5 +1,7 @@
 """Registry of implemented compliance rules."""
 
+from datetime import date
+
 from app.rules.definitions import RuleDefinition, RuleValidator
 from app.rules.validators import PresenceValidator, EitherPresenceValidator
 
@@ -16,7 +18,14 @@ MRP_RULE = RuleDefinition(
     validation_type="presence_check",
     severity="high",
     effective_date="2011-04-01",
-    evidence_requirement="Explicit mention of MRP with numerical price."
+    evidence_requirement="Explicit mention of MRP with numerical price.",
+    rule_name="Maximum Retail Price Declaration",
+    legal_source="Legal Metrology (Packaged Commodities) Rules, 2011, as amended; consolidated source verification pending",
+    amendment_version="baseline-2011-unverified-amendments",
+    effective_from=date.fromisoformat("2011-04-01"),
+    status="current",
+    applicability_conditions={"package_types": ["RETAIL"]},
+    requirement_type="declaration",
 )
 
 # Rule 6(1)(c): Net Quantity
@@ -29,7 +38,14 @@ NET_QTY_RULE = RuleDefinition(
     validation_type="presence_check",
     severity="high",
     effective_date="2011-04-01",
-    evidence_requirement="Explicit mention of net quantity with unit."
+    evidence_requirement="Explicit mention of net quantity with unit.",
+    rule_name="Net Quantity Declaration",
+    legal_source="Legal Metrology (Packaged Commodities) Rules, 2011, as amended; consolidated source verification pending",
+    amendment_version="baseline-2011-unverified-amendments",
+    effective_from=date.fromisoformat("2011-04-01"),
+    status="current",
+    applicability_conditions={"package_types": ["RETAIL"]},
+    requirement_type="declaration",
 )
 
 # Rule 6(1)(g): Consumer Care
@@ -42,7 +58,14 @@ CONSUMER_CARE_RULE = RuleDefinition(
     validation_type="presence_check",
     severity="high",
     effective_date="2011-04-01",
-    evidence_requirement="Explicit mention of consumer care phone number or contact details."
+    evidence_requirement="Explicit mention of consumer care phone number or contact details.",
+    rule_name="Consumer Care Information",
+    legal_source="Legal Metrology (Packaged Commodities) Rules, 2011, as amended; consolidated source verification pending",
+    amendment_version="baseline-2011-unverified-amendments",
+    effective_from=date.fromisoformat("2011-04-01"),
+    status="current",
+    applicability_conditions={"package_types": ["RETAIL"]},
+    requirement_type="declaration",
 )
 
 # Rule 6(1)(d): Manufacture or Packing Date
@@ -55,7 +78,14 @@ DATE_RULE = RuleDefinition(
     validation_type="presence_check",
     severity="high",
     effective_date="2011-04-01",
-    evidence_requirement="Explicit mention of manufacturing or packing date."
+    evidence_requirement="Explicit mention of manufacturing or packing date.",
+    rule_name="Manufacture or Packing Date",
+    legal_source="Legal Metrology (Packaged Commodities) Rules, 2011, as amended; consolidated source verification pending",
+    amendment_version="baseline-2011-unverified-amendments",
+    effective_from=date.fromisoformat("2011-04-01"),
+    status="current",
+    applicability_conditions={"package_types": ["RETAIL"]},
+    requirement_type="declaration",
 )
 
 # Note: Additional complex legal rules (Unit Sale Price, font-size compliance, manufacturer-address parsing, 

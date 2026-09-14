@@ -226,6 +226,7 @@ class ScanService:
             provenance=provenance,
             client_scan_id=request.client_scan_id,
             officer_id=request.officer_id,
+            context=request.context,
         )
         self._store_scan_state(response)
         self._db_service.save_scan(
@@ -657,4 +658,3 @@ class ScanService:
             notes=request.notes,
         )
         return self._load_scan_state(scan_id)
-

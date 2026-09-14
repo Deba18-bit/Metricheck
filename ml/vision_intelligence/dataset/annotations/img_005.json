@@ -1,0 +1,35 @@
+{
+  "image_id": "img_005.jpg",
+  "width": 114,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BEVERAGES",
+    "imported_status": "IMPORTED",
+    "confidence": 0.95
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        27.816,
+        320.0,
+        87.666,
+        337.59999999999997
+      ],
+      "ocr_text": "EAU MINERALE NATURELLE\nRENFORCEE AU GAZ DE LA SOURCE",
+      "source": "gemini-flash-latest"
+    },
+    {
+      "field": "NET_QUANTITY",
+      "bbox": [
+        100.092,
+        319.20000000000005,
+        106.70400000000001,
+        332.4
+      ],
+      "ocr_text": "1L",
+      "source": "gemini-flash-latest"
+    }
+  ]
+}

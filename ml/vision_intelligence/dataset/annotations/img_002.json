@@ -1,0 +1,12 @@
+{
+  "image_id": "img_002.jpg",
+  "width": 323,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "SPREADS",
+    "imported_status": "UNKNOWN",
+    "confidence": 0.95
+  },
+  "annotations": []
+}

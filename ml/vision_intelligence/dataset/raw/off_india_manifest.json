@@ -1,0 +1,2252 @@
+[
+  {
+    "barcode": "6111242100992",
+    "product_name": "Perly",
+    "brand": "Jaouda",
+    "category": "Snacks",
+    "original_categories": "Snacks, Plain fermented dairy desserts with cream",
+    "source_url": "https://in.openfoodfacts.org/product/6111242100992",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/611/124/210/0992/front_fr.172.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3017620425035",
+    "product_name": "Nutella",
+    "brand": "Nutella",
+    "category": "Other",
+    "original_categories": "Cocoa and hazelnuts spreads, Confectionary based spreads, pates-a-tartiner-au-chocolat, pates-a-tartiner-aux-noisettes, pates-a-tartiner-aux-noisettes-et-au-cacao, petit-dejeuners, produits-a-tartiner, produits-a-tartiner-sucres",
+    "source_url": "https://in.openfoodfacts.org/product/3017620425035",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/301/762/042/5035/front_en.583.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "5449000000996",
+    "product_name": "Coca-Cola",
+    "brand": "COCA-COLA SERVICES SA/NV, Coca-Cola",
+    "category": "Other",
+    "original_categories": "Colas, pt:bebidas cafe\u00edna",
+    "source_url": "https://in.openfoodfacts.org/product/5449000000996",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1129.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719134845",
+    "product_name": "Parle-G Biscuit",
+    "brand": "Parle",
+    "category": "Snacks",
+    "original_categories": "Dry biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719134845",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/913/4845/front_en.11.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7613035833272",
+    "product_name": "Perrier",
+    "brand": "Nestl\u00e9, Nestl\u00e9 Waters, Perrier",
+    "category": "Beverages",
+    "original_categories": "Non-alcoholic beverages, Unsweetened beverages, Carbonated mineral waters",
+    "source_url": "https://in.openfoodfacts.org/product/7613035833272",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/761/303/583/3272/front_en.149.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719134852",
+    "product_name": "Parle G biscuit",
+    "brand": "Parle",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719134852",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/913/4852/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8902080000227",
+    "product_name": "Sting Energy",
+    "brand": "Sting",
+    "category": "Beverages",
+    "original_categories": "Energy drink with sugar",
+    "source_url": "https://in.openfoodfacts.org/product/8902080000227",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/208/000/0227/front_en.81.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063139329",
+    "product_name": "bourbon",
+    "brand": "britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901063139329",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/313/9329/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "90162602",
+    "product_name": "Red Bull Energy Drink",
+    "brand": "Red Bull",
+    "category": "Beverages",
+    "original_categories": "Sodas, Energy drinks, Sweetened beverages, Carbonated Sodas",
+    "source_url": "https://in.openfoodfacts.org/product/90162602",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/000/009/016/2602/front_en.151.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063093522",
+    "product_name": "Good Day - Cashew Cookies",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits or cookies variety packs, Biscuit mixes, Biscuits/Cookies (Shelf Stable)",
+    "source_url": "https://in.openfoodfacts.org/product/8901063093522",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/309/3522/front_en.28.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901058017687",
+    "product_name": "maggi",
+    "brand": "Maggi",
+    "category": "Other",
+    "original_categories": "Noodles, Maggi, Maggie",
+    "source_url": "https://in.openfoodfacts.org/product/8901058017687",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/105/801/7687/front_en.13.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063162914",
+    "product_name": "Marie Gold Biscuit",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901063162914",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/316/2914/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500559",
+    "product_name": "Mung Dal",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Snacks, Food",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500559",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0559/front_es.15.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764042911",
+    "product_name": "Thums up",
+    "brand": "Thums up",
+    "category": "Beverages",
+    "original_categories": "Carbonated waters, Colas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764042911",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/404/2911/front_en.41.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500245",
+    "product_name": "Balaji Wafers Masala Sev Murmura",
+    "brand": "Balaji Wafers",
+    "category": "Other",
+    "original_categories": "Wafers",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500245",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0245/front_en.20.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010502232",
+    "product_name": "Balaji wafers panjabi tadka",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Crisps, Namkeen",
+    "source_url": "https://in.openfoodfacts.org/product/8906010502232",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/2232/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500900",
+    "product_name": "Wheelos Masala Flavour",
+    "brand": "Balaji Wafers",
+    "category": "Other",
+    "original_categories": "Appetizers",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500900",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0900/front_en.20.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764032912",
+    "product_name": "Sprite",
+    "brand": "Coca-Cola, sprite",
+    "category": "Beverages",
+    "original_categories": "Sodas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764032912",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/403/2912/front_en.26.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500023",
+    "product_name": "POTATO WAFERS",
+    "brand": "Balaji",
+    "category": "Other",
+    "original_categories": "Appetizers, POTATO WAFERS",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500023",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0023/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "5999884034469",
+    "product_name": "HELL",
+    "brand": "Hell",
+    "category": "Beverages",
+    "original_categories": "Energy drink with sugar, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/5999884034469",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/599/988/403/4469/front_en.61.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202225512",
+    "product_name": "Original Oreo",
+    "brand": "Cadbury",
+    "category": "Snacks",
+    "original_categories": "Filled biscuits, Des",
+    "source_url": "https://in.openfoodfacts.org/product/7622202225512",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/222/5512/front_en.28.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901058000290",
+    "product_name": "maggi",
+    "brand": "Nestl\u00e9",
+    "category": "Spices",
+    "original_categories": "Instant noodles, Instant Noodles with Seasoning",
+    "source_url": "https://in.openfoodfacts.org/product/8901058000290",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/105/800/0290/front_en.36.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904043901015",
+    "product_name": "Tata Salt",
+    "brand": "Tata",
+    "category": "Spices",
+    "original_categories": "Table salts, Groceries",
+    "source_url": "https://in.openfoodfacts.org/product/8904043901015",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/404/390/1015/front_en.34.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "5000108478119",
+    "product_name": "Quaker White Oats",
+    "brand": "Quaker",
+    "category": "Other",
+    "original_categories": "Rolled oats",
+    "source_url": "https://in.openfoodfacts.org/product/5000108478119",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/500/010/847/8119/front_en.71.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764032912",
+    "product_name": "Sprite",
+    "brand": "Coca-Cola, Sprite",
+    "category": "Other",
+    "original_categories": "Sodas",
+    "source_url": "https://in.openfoodfacts.org/product/3948764032912",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/403/2912/front_en.12.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063092853",
+    "product_name": "Good Day cashew cookie",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901063092853",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/309/2853/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906017290040",
+    "product_name": "Bisleri 1ltr MADE IN INDIA",
+    "brand": "Bisleri",
+    "category": "Beverages",
+    "original_categories": "Waters",
+    "source_url": "https://in.openfoodfacts.org/product/8906017290040",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/729/0040/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764042911",
+    "product_name": "thums up",
+    "brand": "thumsup",
+    "category": "Beverages",
+    "original_categories": "Colas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/3948764042911",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/404/2911/front_en.20.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719129988",
+    "product_name": "Happy happy - Parl",
+    "brand": "Parle",
+    "category": "Snacks",
+    "original_categories": "Biscuits, Happy happy biscuit",
+    "source_url": "https://in.openfoodfacts.org/product/8901719129988",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/912/9988/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202334009",
+    "product_name": "dairy milk",
+    "brand": "Cadbury, Dairy Milk",
+    "category": "Sweets",
+    "original_categories": "Milk chocolates",
+    "source_url": "https://in.openfoodfacts.org/product/7622202334009",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/233/4009/front_en.9.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500627",
+    "product_name": "Chataka Pataka Tangy Tomato",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Crisps, Chatapataka, Chis",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500627",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0627/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901491100519",
+    "product_name": "Kurkure",
+    "brand": "Kurkure",
+    "category": "Snacks",
+    "original_categories": "Crisps, Namkeen",
+    "source_url": "https://in.openfoodfacts.org/product/8901491100519",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/110/0519/front_en.48.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030921667",
+    "product_name": "kissan",
+    "brand": "Kissan",
+    "category": "Other",
+    "original_categories": "Ketchup, Tomato & Chill Ketchup",
+    "source_url": "https://in.openfoodfacts.org/product/8901030921667",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/092/1667/front_en.39.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764092206",
+    "product_name": "Maaza",
+    "brand": "Mazza, The Coca-Cola Company",
+    "category": "Beverages",
+    "original_categories": "Juices and nectars, juice",
+    "source_url": "https://in.openfoodfacts.org/product/8901764092206",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/409/2206/front_en.86.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030535895",
+    "product_name": "Bru Instant Coffee",
+    "brand": "Bru",
+    "category": "Beverages",
+    "original_categories": "Coffees, Instant coffees",
+    "source_url": "https://in.openfoodfacts.org/product/8901030535895",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/053/5895/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764082405",
+    "product_name": "Kinley Mineral Water 1ltr",
+    "brand": "Kinley",
+    "category": "Beverages",
+    "original_categories": "Waters",
+    "source_url": "https://in.openfoodfacts.org/product/8901764082405",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/408/2405/front_en.40.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030897542",
+    "product_name": "kissan fresh tomato",
+    "brand": "Kissan",
+    "category": "Other",
+    "original_categories": "Tomato Ketchup",
+    "source_url": "https://in.openfoodfacts.org/product/8901030897542",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/089/7542/front_en.22.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500337",
+    "product_name": "Aloo Sev",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Snacks, Snack Mixes, indian",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500337",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0337/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063029255",
+    "product_name": "Jimjam 57g (57)",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901063029255",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/302/9255/front_en.9.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262010016",
+    "product_name": "Amul Pasteurized Butter",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Butters",
+    "source_url": "https://in.openfoodfacts.org/product/8901262010016",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/201/0016/front_en.53.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764042904",
+    "product_name": "Thumsup",
+    "brand": "Coca-Cola",
+    "category": "Other",
+    "original_categories": "Sodas",
+    "source_url": "https://in.openfoodfacts.org/product/8901764042904",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/404/2904/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262200196",
+    "product_name": "Amul Masti Spiced Buttermilk 200ml",
+    "brand": "Amul",
+    "category": "Beverages",
+    "original_categories": "Beverages, Milks, Buttermilks",
+    "source_url": "https://in.openfoodfacts.org/product/8901262200196",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/220/0196/front_en.54.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010502119",
+    "product_name": "Chataka pataka",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Crisps, Chataka pataka",
+    "source_url": "https://in.openfoodfacts.org/product/8906010502119",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/2119/front_en.7.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "5000354908248",
+    "product_name": "Original Custard powder",
+    "brand": "Bird's",
+    "category": "Sweets",
+    "original_categories": "Dessert mixes, Custards and pastry creams, Custard powder",
+    "source_url": "https://in.openfoodfacts.org/product/5000354908248",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/500/035/490/8248/front_en.33.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764032707",
+    "product_name": "Sprite",
+    "brand": "Coca Cola",
+    "category": "Beverages",
+    "original_categories": "Artificially sweetened beverages, Sodas, Still fruit soft drink with reduced sugar and with 10-50% of fruit juice, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764032707",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/403/2707/front_en.20.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010502294",
+    "product_name": "Flaming hot nachos",
+    "brand": "Unknown",
+    "category": "Snacks",
+    "original_categories": "Crisps",
+    "source_url": "https://in.openfoodfacts.org/product/8906010502294",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/2294/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500078",
+    "product_name": "Balaji Farali Chivda",
+    "brand": "Balaji Namkeen",
+    "category": "Snacks",
+    "original_categories": "Snacks",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500078",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0078/front_en.5.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901491366052",
+    "product_name": "Puffcorn",
+    "brand": "Kurkure",
+    "category": "Snacks",
+    "original_categories": "Crackers (Appetizers), Corn chips, Puffed salty snacks",
+    "source_url": "https://in.openfoodfacts.org/product/8901491366052",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/136/6052/front_en.32.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719135248",
+    "product_name": "Krackjack",
+    "brand": "Parle",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719135248",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/913/5248/front_en.25.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010501570",
+    "product_name": "Balaji Wafers Crunchex",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Crisps, Salty snacks made from potato, Kurkure",
+    "source_url": "https://in.openfoodfacts.org/product/8906010501570",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/1570/front_en.13.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8996001312506",
+    "product_name": "Malkist Cheese Flavoured Crunchy Layered Cracker Biscuits",
+    "brand": "Mayora",
+    "category": "Snacks",
+    "original_categories": "Biscuits, Crackers (Appetizers), cream-biscuit",
+    "source_url": "https://in.openfoodfacts.org/product/8996001312506",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/899/600/131/2506/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901595862962",
+    "product_name": "Schezwan Chutney",
+    "brand": "Ching's Secret",
+    "category": "Other",
+    "original_categories": "Schezean Chutney",
+    "source_url": "https://in.openfoodfacts.org/product/8901595862962",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/159/586/2962/front_en.51.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901058005233",
+    "product_name": "Kitkat mini chocolate coated wafer",
+    "brand": "KitKat, Nestle nutrition",
+    "category": "Snacks",
+    "original_categories": "Chocolate candies, Bars, Chocolate biscuits, Dark chocolate bar",
+    "source_url": "https://in.openfoodfacts.org/product/8901058005233",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/105/800/5233/front_en.26.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063023901",
+    "product_name": "Marie Gold",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits, Snack biscuit with fruits filling",
+    "source_url": "https://in.openfoodfacts.org/product/8901063023901",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/302/3901/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030921797",
+    "product_name": "kissan fresh tomato",
+    "brand": "Kissan, Unilever",
+    "category": "Other",
+    "original_categories": "Tomato Ketchup",
+    "source_url": "https://in.openfoodfacts.org/product/8901030921797",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/092/1797/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8902080104581",
+    "product_name": "Pepsi",
+    "brand": "Pepsi Cola",
+    "category": "Beverages",
+    "original_categories": "Carbonated waters, Carbonated soft drinks without fruit juice, Cola with sugar, Diet cola soft drink, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8902080104581",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/208/010/4581/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764061257",
+    "product_name": "Diet coke",
+    "brand": "Coca-Cola",
+    "category": "Beverages",
+    "original_categories": "Diet cola soft drink",
+    "source_url": "https://in.openfoodfacts.org/product/3948764061257",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/406/1257/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719135118",
+    "product_name": "MONACO",
+    "brand": "Parle",
+    "category": "Snacks",
+    "original_categories": "Appetizers, Biscuits, Monaco-biscuit",
+    "source_url": "https://in.openfoodfacts.org/product/8901719135118",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/913/5118/front_en.24.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901063162532",
+    "product_name": "Marie gold",
+    "brand": "Britannia",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901063162532",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/106/316/2532/front_en.5.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764032905",
+    "product_name": "Sprite",
+    "brand": "Coca cola, Sprite",
+    "category": "Beverages",
+    "original_categories": "Artificially sweetened beverages, Sodas",
+    "source_url": "https://in.openfoodfacts.org/product/8901764032905",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/403/2905/front_en.28.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "89080153",
+    "product_name": "Maggi masala magic",
+    "brand": "Maggi, Maggie",
+    "category": "Spices",
+    "original_categories": "Spices",
+    "source_url": "https://in.openfoodfacts.org/product/89080153",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/000/008/908/0153/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901491361026",
+    "product_name": "Kurkure Masala Munch",
+    "brand": "Kurkure, PepsiCo",
+    "category": "Snacks",
+    "original_categories": "Crisps, Crackers (Appetizers), Puffed salty snacks, Masala-munch-with-gingelly-oil",
+    "source_url": "https://in.openfoodfacts.org/product/8901491361026",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/136/1026/front_en.51.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904272600291",
+    "product_name": "Storia 100% Tender Coconut Water 1L",
+    "brand": "Storia Foods & Beverages",
+    "category": "Beverages",
+    "original_categories": "Coconut waters",
+    "source_url": "https://in.openfoodfacts.org/product/8904272600291",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/427/260/0291/front_en.32.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262260121",
+    "product_name": "Amul Taaza Milky Milk",
+    "brand": "Amul, Amul taaza",
+    "category": "Dairy",
+    "original_categories": "Whole pasteurised milks",
+    "source_url": "https://in.openfoodfacts.org/product/8901262260121",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/226/0121/front_en.52.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764092305",
+    "product_name": "Maaza Origina",
+    "brand": "HINDUSTAN COCA-COLA BEVERAGES PVT LTD.",
+    "category": "Beverages",
+    "original_categories": "Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764092305",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/409/2305/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901725016258",
+    "product_name": "Dark fantasy bourbon",
+    "brand": "",
+    "category": "Snacks",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901725016258",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/172/501/6258/front_en.13.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500863",
+    "product_name": "Shing Bhujiya - Nimbu Chatka",
+    "brand": "Balaji Wafers",
+    "category": "Other",
+    "original_categories": "Appetizers, Bhujia, Shing-bhujiq",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500863",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0863/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764061257",
+    "product_name": "Diet Coke Can 250ml",
+    "brand": "Coke",
+    "category": "Beverages",
+    "original_categories": "Diet cola soft drink",
+    "source_url": "https://in.openfoodfacts.org/product/8901764061257",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/406/1257/front_en.15.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500481",
+    "product_name": "Crunchm",
+    "brand": "Balaji",
+    "category": "Snacks",
+    "original_categories": "Appetizers, Chips and fries",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500481",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0481/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "1234567890128",
+    "product_name": "Chocolat en poudre",
+    "brand": "Munch",
+    "category": "Beverages",
+    "original_categories": "Beverages, Breakfasts, Instant chocolate powders",
+    "source_url": "https://in.openfoodfacts.org/product/1234567890128",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/123/456/789/0128/front_en.119.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764042706",
+    "product_name": "Thumsup",
+    "brand": "Cola",
+    "category": "Beverages",
+    "original_categories": "Colas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764042706",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/404/2706/front_en.26.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764362804",
+    "product_name": "Pulpy Orange",
+    "brand": "Minute Maid",
+    "category": "Beverages",
+    "original_categories": "Orange juices",
+    "source_url": "https://in.openfoodfacts.org/product/8901764362804",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/436/2804/front_en.40.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8850389100684",
+    "product_name": "Mogu lychee",
+    "brand": "Sappe Public Company Limited",
+    "category": "Beverages",
+    "original_categories": "Fruit juices from concentrate, Lychees, Still fruit soft drink with sugar and with 10-50% of fruit juice, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8850389100684",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/885/038/910/0684/front_en.123.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904004402636",
+    "product_name": "Unknown",
+    "brand": "Haldiram's",
+    "category": "Snacks",
+    "original_categories": "Chips, Fast-food",
+    "source_url": "https://in.openfoodfacts.org/product/8904004402636",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/400/440/2636/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719123870",
+    "product_name": "Parle-G 250g",
+    "brand": "Parle",
+    "category": "Other",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719123870",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/912/3870/front_en.27.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764032707",
+    "product_name": "Sprite",
+    "brand": "Coca-Cola Company",
+    "category": "Beverages",
+    "original_categories": "Sodas, Carbonated waters, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/3948764032707",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/403/2707/front_en.11.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500214",
+    "product_name": "Balaji Wafers Sev Murmura",
+    "brand": "Balaji Wafers",
+    "category": "Other",
+    "original_categories": "Snacks, Puffed rice",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500214",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0214/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906032018513",
+    "product_name": "Doodh Biscuits",
+    "brand": "Patanjali",
+    "category": "Other",
+    "original_categories": "Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8906032018513",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/603/201/8513/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906010500016",
+    "product_name": "Simply Salted",
+    "brand": "Balaji Wafers",
+    "category": "Other",
+    "original_categories": "Crisps",
+    "source_url": "https://in.openfoodfacts.org/product/8906010500016",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/601/050/0016/front_en.24.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901491001168",
+    "product_name": "Masala munch",
+    "brand": "Unknown",
+    "category": "Other",
+    "original_categories": "Appetizers",
+    "source_url": "https://in.openfoodfacts.org/product/8901491001168",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/100/1168/front_fr.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901725118938",
+    "product_name": "Bingo Tedhe Medhe",
+    "brand": "Bingo",
+    "category": "Other",
+    "original_categories": "Crisps, Plain salty snacks",
+    "source_url": "https://in.openfoodfacts.org/product/8901725118938",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/172/511/8938/front_en.29.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764042300",
+    "product_name": "Thums Up",
+    "brand": "Coca-Cola",
+    "category": "Beverages",
+    "original_categories": "Colas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764042300",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/404/2300/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901764032301",
+    "product_name": "Sprite",
+    "brand": "Sprite",
+    "category": "Beverages",
+    "original_categories": "Sodas, Sweetened beverages",
+    "source_url": "https://in.openfoodfacts.org/product/8901764032301",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/176/403/2301/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "0716270001660",
+    "product_name": "Ginger Crystallized In Dark Chocolate",
+    "brand": "Chocolove",
+    "category": "Other",
+    "original_categories": "Candied fruits, Ginger, Crystallized ginger, Groceries",
+    "source_url": "https://in.openfoodfacts.org/product/0716270001660",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/071/627/000/1660/front_en.41.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719105913",
+    "product_name": "parle hide & seek 120g",
+    "brand": "PARLE",
+    "category": "Other",
+    "original_categories": "Chocolate biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719105913",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/910/5913/front_en.22.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719121630",
+    "product_name": "20-20",
+    "brand": "Parle",
+    "category": "Other",
+    "original_categories": "Confectioneries, Biscuits",
+    "source_url": "https://in.openfoodfacts.org/product/8901719121630",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/912/1630/front_en.7.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030831690",
+    "product_name": "kissan mixed fruit jam",
+    "brand": "kissan",
+    "category": "Other",
+    "original_categories": "Tropical fruit jams",
+    "source_url": "https://in.openfoodfacts.org/product/8901030831690",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/083/1690/front_en.32.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901719130014",
+    "product_name": "Happy happy biscuit - Parle - Parle",
+    "brand": "Parle",
+    "category": "Other",
+    "original_categories": "Biscuits, Happy happy",
+    "source_url": "https://in.openfoodfacts.org/product/8901719130014",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/171/913/0014/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901491101844",
+    "product_name": "Lay's Potato Chips",
+    "brand": "Lay's",
+    "category": "Other",
+    "original_categories": "Flavoured potato crisps",
+    "source_url": "https://in.openfoodfacts.org/product/8901491101844",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/110/1844/front_en.32.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904004400731",
+    "product_name": "Aloo bhujia",
+    "brand": "Haldiram's",
+    "category": "Other",
+    "original_categories": "Snacks, Namkeen",
+    "source_url": "https://in.openfoodfacts.org/product/8904004400731",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/400/440/0731/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764042904",
+    "product_name": "Thumbs Up",
+    "brand": "",
+    "category": "Other",
+    "original_categories": "Sodas, Thumms up",
+    "source_url": "https://in.openfoodfacts.org/product/3948764042904",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/404/2904/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904004400236",
+    "product_name": "Haldiram's Soya sticks",
+    "brand": "Haldirams",
+    "category": "Other",
+    "original_categories": "Snacks, Soya snack",
+    "source_url": "https://in.openfoodfacts.org/product/8904004400236",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/400/440/0236/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906032018520",
+    "product_name": "Patanjali",
+    "brand": "Unknown",
+    "category": "Other",
+    "original_categories": "Biscuit (cookie) snack w chocolate filling",
+    "source_url": "https://in.openfoodfacts.org/product/8906032018520",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/603/201/8520/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901499008169",
+    "product_name": "Chocos",
+    "brand": "Kellogg's",
+    "category": "Sweets",
+    "original_categories": "Breakfast cereals filled with chocolate",
+    "source_url": "https://in.openfoodfacts.org/product/8901499008169",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/149/900/8169/front_en.16.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "0074305001161",
+    "product_name": "APPLE CIDER VINEGAR",
+    "brand": "BRAGG",
+    "category": "Spices",
+    "original_categories": "Sauces, Cider vinegars, Groceries",
+    "source_url": "https://in.openfoodfacts.org/product/0074305001161",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/007/430/500/1161/front_en.73.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764032301",
+    "product_name": "Unknown",
+    "brand": "Unknown",
+    "category": "Beverages",
+    "original_categories": "Artificially sweetened beverages, Sodas, A",
+    "source_url": "https://in.openfoodfacts.org/product/3948764032301",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/403/2301/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "09141209",
+    "product_name": "Bourn Vita 500Gram Pauch",
+    "brand": "Cadbury",
+    "category": "Sweets",
+    "original_categories": "Instant chocolate powders",
+    "source_url": "https://in.openfoodfacts.org/product/09141209",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/000/000/914/1209/front_en.18.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262010320",
+    "product_name": "Amul Butter",
+    "brand": "AMUL",
+    "category": "Dairy",
+    "original_categories": "Butters",
+    "source_url": "https://in.openfoodfacts.org/product/8901262010320",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/201/0320/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904327600924",
+    "product_name": "Myfitness Peanut Butter",
+    "brand": "Myfitness",
+    "category": "Dairy",
+    "original_categories": "Nut butters, Peanut butters",
+    "source_url": "https://in.openfoodfacts.org/product/8904327600924",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/432/760/0924/front_fr.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8903754000062",
+    "product_name": "Tata water 1ltr",
+    "brand": "Tata",
+    "category": "Beverages",
+    "original_categories": "Drinking water",
+    "source_url": "https://in.openfoodfacts.org/product/8903754000062",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/375/400/0062/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8909106018327",
+    "product_name": "Boost",
+    "brand": "Boost, Unilever",
+    "category": "Beverages",
+    "original_categories": "Beverage preparations",
+    "source_url": "https://in.openfoodfacts.org/product/8909106018327",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/910/601/8327/front_en.23.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8902080504060",
+    "product_name": "Packaged Drinking Water",
+    "brand": "Aquafina is sold by PepsiCo, PepsiCo",
+    "category": "Beverages",
+    "original_categories": "Waters",
+    "source_url": "https://in.openfoodfacts.org/product/8902080504060",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/208/050/4060/front_en.28.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262070546",
+    "product_name": "Chocominis",
+    "brand": "Amul",
+    "category": "Sweets",
+    "original_categories": "Chocolate Sculptures, Milk chocolate molds",
+    "source_url": "https://in.openfoodfacts.org/product/8901262070546",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/207/0546/front_en.24.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906001023043",
+    "product_name": "Govardhan pure cow ghee 500ml",
+    "brand": "Paragon Partners",
+    "category": "Dairy",
+    "original_categories": "Butters, ghee",
+    "source_url": "https://in.openfoodfacts.org/product/8906001023043",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/600/102/3043/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901058023787",
+    "product_name": "2-minute noodles masala taste",
+    "brand": "Maggi",
+    "category": "Spices",
+    "original_categories": "Herbs and spices, Instant noodles, Tastemaker",
+    "source_url": "https://in.openfoodfacts.org/product/8901058023787",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/105/802/3787/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8903553601613",
+    "product_name": "Mango Pickle",
+    "brand": "RAM BANDHU",
+    "category": "Spices",
+    "original_categories": "Plant-based pickles",
+    "source_url": "https://in.openfoodfacts.org/product/8903553601613",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/355/360/1613/front_en.5.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "80768258",
+    "product_name": "\u5065\u9054\u5947\u8da3\u86cb(\u5973\u5b69\u7248)",
+    "brand": "Ferrero, Kinder",
+    "category": "Sweets",
+    "original_categories": "Chocolate candies",
+    "source_url": "https://in.openfoodfacts.org/product/80768258",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/000/008/076/8258/front_zh.60.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904083303077",
+    "product_name": "Farm Fresh Sahi Plain Yoghurt",
+    "brand": "Milky Mist",
+    "category": "Dairy",
+    "original_categories": "Yogurts",
+    "source_url": "https://in.openfoodfacts.org/product/8904083303077",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/408/330/3077/front_en.10.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "3948764092305",
+    "product_name": "3948764092305",
+    "brand": "Unknown",
+    "category": "Spices",
+    "original_categories": "Garam masalas",
+    "source_url": "https://in.openfoodfacts.org/product/3948764092305",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/394/876/409/2305/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8908000794023",
+    "product_name": "Pasteurised full cream milk",
+    "brand": "Gokul",
+    "category": "Dairy",
+    "original_categories": "Whole milks, Pasteurised full cream milk",
+    "source_url": "https://in.openfoodfacts.org/product/8908000794023",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/800/079/4023/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262180115",
+    "product_name": "malai paneer fresh",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Paneer",
+    "source_url": "https://in.openfoodfacts.org/product/8901262180115",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/218/0115/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901595862818",
+    "product_name": "Dark Soy sauce",
+    "brand": "Ching secret",
+    "category": "Spices",
+    "original_categories": "Soy sauces",
+    "source_url": "https://in.openfoodfacts.org/product/8901595862818",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/159/586/2818/front_en.20.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "4000417224002",
+    "product_name": "Ritter Sport Noir Noisettes Enti\u00e8res",
+    "brand": "Ritter Sport",
+    "category": "Sweets",
+    "original_categories": "Dark chocolates with hazelnuts",
+    "source_url": "https://in.openfoodfacts.org/product/4000417224002",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/400/041/722/4002/front_fr.46.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901071211307",
+    "product_name": "Hershey's syrup",
+    "brand": "Hershey's",
+    "category": "Sweets",
+    "original_categories": "Syrups, Chocolate syrup",
+    "source_url": "https://in.openfoodfacts.org/product/8901071211307",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/107/121/1307/front_en.10.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906009501031",
+    "product_name": "Pasteurised Cow Milk",
+    "brand": "Chitale",
+    "category": "Dairy",
+    "original_categories": "Whole milks",
+    "source_url": "https://in.openfoodfacts.org/product/8906009501031",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/600/950/1031/front_en.5.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262020039",
+    "product_name": "Amul cheese",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Cheeses",
+    "source_url": "https://in.openfoodfacts.org/product/8901262020039",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/202/0039/front_en.40.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901595863013",
+    "product_name": "Schezwan Chutney",
+    "brand": "ching's",
+    "category": "Spices",
+    "original_categories": "Salted spreads, Dips, Onion chutneys, Schezwan Chutney",
+    "source_url": "https://in.openfoodfacts.org/product/8901595863013",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/159/586/3013/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904327600948",
+    "product_name": "MYFITNESS Chocolate Peanut Butter Crunchy",
+    "brand": "MYFITNESS",
+    "category": "Dairy",
+    "original_categories": "Crunchy peanut butters",
+    "source_url": "https://in.openfoodfacts.org/product/8904327600948",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/432/760/0948/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901058022179",
+    "product_name": "Munch",
+    "brand": "Nestl\u00e9",
+    "category": "Sweets",
+    "original_categories": "Chocolate stuffed wafers, Chocolate Wafer",
+    "source_url": "https://in.openfoodfacts.org/product/8901058022179",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/105/802/2179/front_en.27.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202325960",
+    "product_name": "Bournville Intense 70% Dark",
+    "brand": "Cadbury",
+    "category": "Sweets",
+    "original_categories": "Dark chocolate bar",
+    "source_url": "https://in.openfoodfacts.org/product/7622202325960",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/232/5960/front_en.11.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901595972111",
+    "product_name": "8901595972111",
+    "brand": "Unknown",
+    "category": "Spices",
+    "original_categories": "Masalas",
+    "source_url": "https://in.openfoodfacts.org/product/8901595972111",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/159/597/2111/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906001023050",
+    "product_name": "Gowardhan pure cow ghee",
+    "brand": "Gowardhan",
+    "category": "Dairy",
+    "original_categories": "Butters, ghee",
+    "source_url": "https://in.openfoodfacts.org/product/8906001023050",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/600/102/3050/front_en.9.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904327600405",
+    "product_name": "Myfitness Chocolate Peanut Butter",
+    "brand": "Myfitness",
+    "category": "Dairy",
+    "original_categories": "Nut butters, Peanut butters",
+    "source_url": "https://in.openfoodfacts.org/product/8904327600405",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/432/760/0405/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8909081001147",
+    "product_name": "bounce",
+    "brand": "Good Life",
+    "category": "Spices",
+    "original_categories": "Unsalted cashews",
+    "source_url": "https://in.openfoodfacts.org/product/8909081001147",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/908/100/1147/front_en.7.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030702556",
+    "product_name": "Kissan sweet & spicy",
+    "brand": "Unknown",
+    "category": "Spices",
+    "original_categories": "Sauces",
+    "source_url": "https://in.openfoodfacts.org/product/8901030702556",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/070/2556/front_en.9.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202318078",
+    "product_name": "5 Star Chocolate Bar",
+    "brand": "Cadbury",
+    "category": "Sweets",
+    "original_categories": "Confectioneries, Milk chocolates, Sugar-boil",
+    "source_url": "https://in.openfoodfacts.org/product/7622202318078",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/231/8078/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262150088",
+    "product_name": "Milk",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Whole milks",
+    "source_url": "https://in.openfoodfacts.org/product/8901262150088",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/215/0088/front_en.51.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262200004",
+    "product_name": "Butter milk amul",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Buttermilks",
+    "source_url": "https://in.openfoodfacts.org/product/8901262200004",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/220/0004/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262070676",
+    "product_name": "Dark Chocolate",
+    "brand": "Amul",
+    "category": "Sweets",
+    "original_categories": "Bars, Dark chocolates",
+    "source_url": "https://in.openfoodfacts.org/product/8901262070676",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/207/0676/front_en.44.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262020015",
+    "product_name": "Cheese slices",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Cheeses, Processed cheese in slices",
+    "source_url": "https://in.openfoodfacts.org/product/8901262020015",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/202/0015/front_en.17.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262151863",
+    "product_name": "Amul Fresh Cream",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Creams, Milks, Fresh cream cheese with cow's milk",
+    "source_url": "https://in.openfoodfacts.org/product/8901262151863",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/215/1863/front_en.6.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262172448",
+    "product_name": "Amul Chocolate Brownie",
+    "brand": "Amul",
+    "category": "Sweets",
+    "original_categories": "Ice creams, Chocolate icecream, Icecream",
+    "source_url": "https://in.openfoodfacts.org/product/8901262172448",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/217/2448/front_en.14.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202315152",
+    "product_name": "Unknown",
+    "brand": "Unknown",
+    "category": "Sweets",
+    "original_categories": "Candy chocolate bars filled with caramel",
+    "source_url": "https://in.openfoodfacts.org/product/7622202315152",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/231/5152/front_en.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202272639",
+    "product_name": "Cadbury Dairy Milk",
+    "brand": "Cadbury",
+    "category": "Sweets",
+    "original_categories": "Confectioneries, Milk chocolates",
+    "source_url": "https://in.openfoodfacts.org/product/7622202272639",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/227/2639/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "18111286",
+    "product_name": "18111286",
+    "brand": "Unknown",
+    "category": "Sweets",
+    "original_categories": "Chocolates",
+    "source_url": "https://in.openfoodfacts.org/product/18111286",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/000/001/811/1286/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904043926612",
+    "product_name": "Himalayan Rock Salt",
+    "brand": "TATA Salt",
+    "category": "Spices",
+    "original_categories": "Rock salts",
+    "source_url": "https://in.openfoodfacts.org/product/8904043926612",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/404/392/6612/front_en.24.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "0850006000012",
+    "product_name": "Yaourt nature sucres U",
+    "brand": "Coca Cola",
+    "category": "Dairy",
+    "original_categories": "Plain yogurt with sugar, Whole milk yogurts",
+    "source_url": "https://in.openfoodfacts.org/product/0850006000012",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/085/000/600/0012/front_fr.4.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901262260107",
+    "product_name": "Amul Gold Milky Milk",
+    "brand": "Amul",
+    "category": "Dairy",
+    "original_categories": "Milks, Full cream milk",
+    "source_url": "https://in.openfoodfacts.org/product/8901262260107",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/126/226/0107/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901207006241",
+    "product_name": "Dabur Chyawanprash",
+    "brand": "Dabur",
+    "category": "Sweets",
+    "original_categories": "Sweeteners, Dietary supplements, Ayurvedic, Pro",
+    "source_url": "https://in.openfoodfacts.org/product/8901207006241",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/120/700/6241/front_en.5.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8903241110434",
+    "product_name": "Kolhapuri Thecha",
+    "brand": "Pravin",
+    "category": "Spices",
+    "original_categories": "Chilli-garlic paste, Hot chilly sauce",
+    "source_url": "https://in.openfoodfacts.org/product/8903241110434",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/324/111/0434/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030987007",
+    "product_name": "Knorr Schezwan Sauce 200 g",
+    "brand": "Knorr",
+    "category": "Spices",
+    "original_categories": "Sauces",
+    "source_url": "https://in.openfoodfacts.org/product/8901030987007",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/098/7007/front_en.29.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "0846203004885",
+    "product_name": "BAKARWADI",
+    "brand": "Chitale",
+    "category": "Spices",
+    "original_categories": "Spices",
+    "source_url": "https://in.openfoodfacts.org/product/0846203004885",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/084/620/300/4885/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8906001023036",
+    "product_name": "Pure Cow Ghee",
+    "brand": "Gowardhan",
+    "category": "Dairy",
+    "original_categories": "Butter fat, Butters",
+    "source_url": "https://in.openfoodfacts.org/product/8906001023036",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/600/102/3036/front_en.12.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030953217",
+    "product_name": "Kissan Sweet & Spicy Sauce",
+    "brand": "Kissan",
+    "category": "Spices",
+    "original_categories": "Tomato sauces",
+    "source_url": "https://in.openfoodfacts.org/product/8901030953217",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/095/3217/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030980053",
+    "product_name": "Peanut Butter Crunchy",
+    "brand": "Kissan",
+    "category": "Dairy",
+    "original_categories": "Peanut butters, Nut butters",
+    "source_url": "https://in.openfoodfacts.org/product/8901030980053",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/098/0053/front_de.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901725123123",
+    "product_name": "iodized salt",
+    "brand": "Aashirvaad",
+    "category": "Spices",
+    "original_categories": "Spices, Iodised salts",
+    "source_url": "https://in.openfoodfacts.org/product/8901725123123",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/172/512/3123/front_en.13.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8908010900070",
+    "product_name": "Pintola all natural peanut butter (crunchy)",
+    "brand": "Pintola",
+    "category": "Dairy",
+    "original_categories": "Nut butters, Crunchy peanut butters",
+    "source_url": "https://in.openfoodfacts.org/product/8908010900070",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/801/090/0070/front_en.22.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8901030919305",
+    "product_name": "pizza & pasta sauce",
+    "brand": "Knorr",
+    "category": "Spices",
+    "original_categories": "Pasta sauces, Pizza sauces",
+    "source_url": "https://in.openfoodfacts.org/product/8901030919305",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/103/091/9305/front_en.3.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "8904004404661",
+    "product_name": "salted peanuts",
+    "brand": "Haldiram's",
+    "category": "Spices",
+    "original_categories": "Salted peanuts",
+    "source_url": "https://in.openfoodfacts.org/product/8904004404661",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/890/400/440/4661/front_en.8.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  },
+  {
+    "barcode": "7622202324260",
+    "product_name": "Dairy Milk Chocolate",
+    "brand": "",
+    "category": "Sweets",
+    "original_categories": "Candy chocolate bars, Milk chocolates, Ch",
+    "source_url": "https://in.openfoodfacts.org/product/7622202324260",
+    "image_urls": {
+      "front": "https://images.openfoodfacts.org/images/products/762/220/232/4260/front_en.7.400.jpg",
+      "ingredients": null,
+      "nutrition": null
+    },
+    "license": "Open Database License (ODbL)",
+    "source": "Open Food Facts"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "image_id": "img_010.jpg",
+  "width": 199,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "BISCUITS",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.95
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        52.735,
+        144.4,
+        65.471,
+        223.20000000000002
+      ],
+      "ocr_text": "CASHEW COOKIES",
+      "source": "gemini-3.6-flash"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """Pydantic schemas for package-image scans."""
 
-from datetime import datetime
+from datetime import date, datetime
 from enum import Enum
 from typing import Any, Literal
 
@@ -89,11 +89,104 @@ class OCREngine(str, Enum):
     GOOGLE_MLKIT = "google_mlkit"
     APPLE_VISION = "apple_vision"
     GEMINI_VISION = "gemini_vision"
+    YOLO = "yolo"
 
 class OCRSource(str, Enum):
     PROCESSED = "processed"
     VISION = "vision"
     EDGE = "edge"
+
+
+class EvidenceQuality(str, Enum):
+    """Quality state of evidence independently from legal compliance."""
+
+    PASS = "pass"
+    REVIEW_REQUIRED = "review_required"
+    FAILED = "failed"
+
+
+class EvidenceVerificationStatus(str, Enum):
+    """Verification state of a runtime evidence item."""
+
+    UNVERIFIED = "unverified"
+    VERIFIED = "verified"
+    REJECTED = "rejected"
+    REVIEW_REQUIRED = "review_required"
+
+
+class ImportedStatus(str, Enum):
+    """Known origin status used by applicability decisions."""
+
+    DOMESTIC = "DOMESTIC"
+    IMPORTED = "IMPORTED"
+    UNKNOWN = "UNKNOWN"
+
+
+class PackageType(str, Enum):
+    """Package/context classification used before legal evaluation."""
+
+    RETAIL = "RETAIL"
+    WHOLESALE = "WHOLESALE"
+    EXPORT = "EXPORT"
+    INDUSTRIAL = "INDUSTRIAL"
+    INSTITUTIONAL = "INSTITUTIONAL"
+    ADVERTISEMENT = "ADVERTISEMENT"
+    UNKNOWN = "UNKNOWN"
+
+
+class ApplicabilityStatus(str, Enum):
+    """Result of asking whether a versioned rule applies."""
+
+    APPLICABLE = "applicable"
+    NOT_APPLICABLE = "not_applicable"
+    UNKNOWN = "unknown"
+    REVIEW_REQUIRED = "review_required"
+
+
+class ProductContext(BaseModel):
+    """Context facts used for applicability, never a compliance finding."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    brand_name: str | None = None
+    product_name: str | None = None
+    manufacturer_name: str | None = None
+    product_category: str | None = None
+    product_subcategory: str | None = None
+    imported_status: ImportedStatus = ImportedStatus.UNKNOWN
+    package_type: PackageType = PackageType.UNKNOWN
+    industrial_institutional: bool | None = None
+    package_quantity: float | None = Field(default=None, gt=0)
+    package_unit: str | None = None
+    identification_confidence: float = Field(default=0.0, ge=0.0, le=1.0)
+
+
+class CanonicalEvidence(BaseModel):
+    """Engine-neutral evidence contract for present and future adapters."""
+
+    field: str
+    value: float | str | None = None
+    text: str | None = None
+    bbox: tuple[float, float, float, float]
+    source_image_id: str
+    source_width: int = Field(gt=0)
+    source_height: int = Field(gt=0)
+    source_engine: OCREngine
+    confidence: float = Field(ge=0.0, le=1.0)
+    evidence_quality: EvidenceQuality = EvidenceQuality.REVIEW_REQUIRED
+    verification_status: EvidenceVerificationStatus = EvidenceVerificationStatus.UNVERIFIED
+    provenance: dict[str, Any] = Field(default_factory=dict)
+
+    @model_validator(mode="after")
+    def validate_bbox(self) -> "CanonicalEvidence":
+        left, top, right, bottom = self.bbox
+        if right <= left or bottom <= top:
+            raise ValueError("bbox must be [left, top, right, bottom] with positive area")
+        if left < 0 or top < 0 or right > self.source_width or bottom > self.source_height:
+            raise ValueError("bbox must be within source image dimensions")
+        if self.value is None and not self.text:
+            raise ValueError("evidence must contain value or text")
+        return self
 
 
 class EdgeOcrElement(BaseModel):
@@ -123,6 +216,7 @@ class EdgeScanRequest(BaseModel):
     is_offline_sync: bool = False
     client_timestamp: str | None = None
     sync_source: str | None = None
+    context: ProductContext = Field(default_factory=ProductContext)
 
 
 class OCRTextEvidence(BaseModel):
@@ -135,6 +229,15 @@ class OCRTextEvidence(BaseModel):
     source: OCRSource
     source_image_id: str
     elements: list[EdgeOcrElement] = Field(default_factory=list)
+    source_width: int | None = Field(default=None, gt=0, exclude=True)
+    source_height: int | None = Field(default=None, gt=0, exclude=True)
+    evidence_quality: EvidenceQuality = Field(default=EvidenceQuality.REVIEW_REQUIRED, exclude=True)
+    verification_status: EvidenceVerificationStatus = Field(
+        default=EvidenceVerificationStatus.UNVERIFIED,
+        exclude=True,
+    )
+    provenance: dict[str, Any] = Field(default_factory=dict, exclude=True)
+    extraction_method: str | None = Field(default=None, exclude=True)
 
     @model_validator(mode="after")
     def validate_bbox(self) -> "OCRTextEvidence":
@@ -317,3 +420,4 @@ class ScanCreateResponse(BaseModel):
     client_scan_id: str | None = None
     officer_id: str = "OFFICER-DEFAULT"
     inspector_decision: InspectorDecisionRecord | None = None
+    context: ProductContext = Field(default_factory=ProductContext, exclude=True)

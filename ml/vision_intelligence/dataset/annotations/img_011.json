@@ -1,0 +1,24 @@
+{
+  "image_id": "img_011.jpg",
+  "width": 300,
+  "height": 400,
+  "product_context": {
+    "product_category": "FOOD",
+    "product_subcategory": "SNACKS",
+    "imported_status": "DOMESTIC",
+    "confidence": 0.95
+  },
+  "annotations": [
+    {
+      "field": "PRODUCT_COMMON_NAME",
+      "bbox": [
+        94.8,
+        145.2,
+        206.99999999999997,
+        182.4
+      ],
+      "ocr_text": "2-Minute noodles",
+      "source": "gemini-3.6-flash"
+    }
+  ]
+}

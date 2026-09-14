@@ -1,0 +1,430 @@
+/* Cinematic Engine Variables */
+:root {
+  --c-offwhite: #F5F4F0;
+  --c-ink: #101114;
+  --c-blue: #155EEF;
+  --c-softblue: #E8F0FF;
+  --c-green: #16A34A;
+  --c-amber: #F59E0B;
+  --c-red: #DC2626;
+  --f-grotesk: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Base structural track */
+.cine-track {
+  position: relative;
+  height: 2500vh;
+  background: var(--c-offwhite);
+  z-index: 1;
+}
+
+.cine-stage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 2;
+  will-change: background-color, color;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: var(--f-grotesk);
+}
+
+/* Global Typography Overrides */
+.cine-stage h1, .cine-stage h2, .cine-stage h3, .cine-stage p { margin: 0; }
+.c-blue { color: var(--c-blue); }
+.c-green { color: var(--c-green); }
+.c-amber { color: var(--c-amber); }
+.mt-4 { margin-top: 16px; }
+.mt-6 { margin-top: 24px; }
+.mt-8 { margin-top: 32px; }
+.my-2 { margin-top: 8px; margin-bottom: 8px; }
+.my-3 { margin-top: 12px; margin-bottom: 12px; }
+.mb-6 { margin-bottom: 24px; }
+.mb-8 { margin-bottom: 32px; }
+
+/* Global UI */
+.cine-nav-cta {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 100;
+  background: var(--c-blue);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(21,94,239,0.2);
+  transition: transform 0.2s, background 0.2s;
+}
+.cine-nav-cta:hover { transform: translateY(-2px); background: #124fd4; }
+.cine-nav-cta--large { position: static; font-size: 15px; padding: 16px 32px; }
+
+/* Common Text Elements */
+.cine-scene {
+  position: absolute; inset: 0; pointer-events: none;
+  display: flex; align-items: center; justify-content: center;
+  will-change: opacity;
+}
+.cine-text-block {
+  position: absolute; left: 10vw; max-width: 40vw;
+  display: flex; flex-direction: column; align-items: flex-start; pointer-events: auto;
+}
+.cine-text-block--right { left: auto; right: 10vw; align-items: flex-start; }
+.cine-text-block--center { left: 50%; transform: translateX(-50%); align-items: center; text-align: center; }
+.cine-text-block--bottom { top: auto; bottom: 12vh; left: 50%; transform: translateX(-50%); align-items: center; text-align: center; }
+
+.cine-eyebrow { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 16px; opacity: 0.8; }
+.cine-h1 { font-size: clamp(36px, 6vw, 76px); font-weight: 900; line-height: 1.05; letter-spacing: -0.04em; text-wrap: balance; }
+.cine-h2 { font-size: clamp(28px, 4vw, 48px); font-weight: 900; line-height: 1.1; letter-spacing: -0.03em; text-wrap: balance; }
+.cine-sub { font-size: clamp(14px, 1.5vw, 18px); font-weight: 500; line-height: 1.5; margin-top: 16px; max-width: 40ch; opacity: 0.8; }
+
+.hero-watermark {
+  position: absolute; left: -2vw; bottom: 0;
+  font-size: clamp(100px, 20vw, 300px); font-weight: 900;
+  color: transparent; -webkit-text-stroke: 2px rgba(16,17,20,0.03);
+  letter-spacing: -0.05em; pointer-events: none; z-index: -1;
+  white-space: nowrap; line-height: 0.8;
+}
+
+.hero-side-scroll-container {
+  position: absolute; right: 1.5vw; top: 0; bottom: 0;
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none;
+}
+.hero-side-scroll {
+  transform: rotate(90deg);
+  display: flex; align-items: center; gap: 24px;
+  font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--c-ink); opacity: 0.8; white-space: nowrap;
+}
+.hero-side-scroll strong { font-weight: 900; }
+.hero-side-line {
+  width: 100px; height: 2px; background: var(--c-blue);
+  animation: stretchLine 2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  transform-origin: left center;
+}
+@keyframes stretchLine {
+  0%, 100% { transform: scaleX(0.5); }
+  50% { transform: scaleX(1.2); }
+}
+
+.tech-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; justify-content: center; }
+.tech-tags span {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.05em; padding: 6px 12px;
+  background: rgba(128,128,128,0.15); border-radius: 4px; color: inherit;
+}
+
+/* =========================================================
+   THE 3D PACKAGE OBJECT (Hero)
+   ========================================================= */
+.pkg-3d-scene {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 200px; height: 340px;
+  margin-left: -100px; margin-top: -170px;
+  perspective: 1500px;
+  z-index: 10;
+  will-change: transform, opacity;
+}
+
+.pkg-3d-object {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Background Texture */
+.cine-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.06) 150%),
+                    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+/* Subtle Particles */
+.cine-particles { position: absolute; inset: 0; pointer-events: none; z-index: 1; overflow: hidden; }
+.particle { position: absolute; border-radius: 50%; background: currentColor; opacity: 0.05; filter: blur(3px); animation: float linear infinite; }
+@keyframes float {
+  0% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-100px) translateX(30px); }
+  100% { transform: translateY(-200px) translateX(-20px); opacity: 0; }
+}
+
+.pkg-face {
+  position: absolute;
+  top: 0; left: 50%;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.pkg-front {
+  width: 200px; height: 340px; margin-left: -100px;
+  transform: translateZ(70px);
+  background: linear-gradient(135deg, #2a2a2a, #111);
+  color: #fff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.8);
+  border: 1px solid #333;
+}
+.pkg-f-brand { font-size: 14px; font-weight: 800; letter-spacing: 0.1em; color: var(--c-green); margin-bottom: 8px; }
+.pkg-f-title { font-size: 24px; font-weight: 900; line-height: 1; text-align: center; margin-bottom: 24px; }
+.pkg-f-weight { font-size: 12px; font-weight: 700; opacity: 0.6; margin-top: auto; padding-bottom: 24px; }
+
+.pkg-right {
+  width: 140px; height: 340px; margin-left: -70px;
+  transform: rotateY(90deg) translateZ(100px);
+  background: #fdfdfd;
+  color: #111;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  box-shadow: inset -10px 0 20px rgba(0,0,0,0.05);
+  display: flex; flex-direction: column;
+}
+.pkg-r-title { font-size: 10px; font-weight: 800; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-bottom: 8px; }
+.pkg-r-row { display: flex; justify-content: space-between; font-size: 9px; margin-bottom: 4px; }
+.pkg-r-divider { height: 1px; background: #ccc; margin: 8px 0; }
+.pkg-r-mrp { font-size: 13px; font-weight: 800; margin-bottom: 8px; }
+.pkg-r-qty { font-size: 11px; font-weight: 700; margin-bottom: 8px; }
+.pkg-r-date { font-size: 10px; font-weight: 600; margin-bottom: 4px; }
+.pkg-r-batch { font-size: 10px; font-weight: 600; margin-bottom: auto; }
+.pkg-r-care { font-size: 9px; color: #555; margin-bottom: 12px; line-height: 1.4; }
+.pkg-r-barcode { display: flex; gap: 2px; height: 24px; align-items: flex-end; opacity: 0.8; }
+.pkg-r-barcode span { background: #111; width: 2px; border-radius: 1px; }
+
+.pkg-left { width: 140px; height: 340px; margin-left: -70px; transform: rotateY(-90deg) translateZ(100px); background: #0a0a0a; }
+.pkg-top { width: 200px; height: 140px; margin-left: -100px; transform: rotateX(90deg) translateZ(170px); background: #222; }
+.pkg-bottom { width: 200px; height: 140px; margin-left: -100px; transform: rotateX(-90deg) translateZ(170px); background: #050505; }
+
+/* Annotations & Boxes on Side Panel */
+.empty-field { color: #aaa; }
+.pkg-annotation {
+  position: absolute; left: 105%; top: 50%; transform: translateY(-50%);
+  background: var(--c-amber); color: #000;
+  font-size: 9px; font-weight: 800; padding: 4px 8px; border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  white-space: nowrap;
+}
+.pkg-annotation::before {
+  content: ''; position: absolute; left: -6px; top: 50%; margin-top: -3px;
+  border-width: 3px 6px 3px 0; border-style: solid; border-color: transparent var(--c-amber) transparent transparent;
+}
+
+.pkg-bbox {
+  position: absolute; border: 2px solid var(--c-amber); background: rgba(245, 158, 11, 0.1);
+  color: var(--c-amber); font-size: 8px; font-weight: 800; padding: 2px 4px;
+  top: -4px; left: -4px; right: -4px; bottom: -4px;
+  display: flex; align-items: flex-start; justify-content: flex-end; border-radius: 2px;
+}
+.pkg-bbox-mrp { border-color: var(--c-green); color: var(--c-green); background: rgba(22,163,74,0.1); }
+.pkg-bbox-barcode { border-color: var(--c-blue); color: var(--c-blue); background: rgba(21,94,239,0.1); }
+
+/* =========================================================
+   SCENE 1: CAPTURE (Phone & Flash)
+   ========================================================= */
+.cine-phone-overlay {
+  position: absolute; top: 50%; left: 50%;
+  width: 360px; height: 640px;
+  margin-left: -180px; margin-top: -320px;
+  z-index: 20; pointer-events: none;
+}
+.cine-phone-frame {
+  width: 100%; height: 100%; border: 14px solid #1a1a1a; border-radius: 48px;
+  box-shadow: 0 0 0 2px #333, 0 32px 64px rgba(0,0,0,0.6); position: relative;
+}
+.cine-phone-notch {
+  position: absolute; top: 0; left: 50%; width: 120px; height: 28px;
+  margin-left: -60px; background: #1a1a1a;
+  border-bottom-left-radius: 16px; border-bottom-right-radius: 16px;
+}
+.cine-phone-viewfinder {
+  position: absolute; inset: 16px; border: 2px solid rgba(255,255,255,0.15);
+  display: flex; align-items: center; justify-content: center;
+}
+.cam-bracket { position: absolute; width: 32px; height: 32px; border-color: var(--c-amber); border-style: solid; transition: border-color 0.2s; }
+.cam-bracket.locked { border-color: var(--c-green); }
+.cam-tl { top: -2px; left: -2px; border-width: 4px 0 0 4px; }
+.cam-tr { top: -2px; right: -2px; border-width: 4px 4px 0 0; }
+.cam-bl { bottom: -2px; left: -2px; border-width: 0 0 4px 4px; }
+.cam-br { bottom: -2px; right: -2px; border-width: 0 4px 4px 0; }
+
+.cam-instruction {
+  position: absolute; bottom: 32px;
+  background: rgba(0,0,0,0.6); color: #fff; padding: 6px 12px; border-radius: 16px;
+  font-size: 11px; font-weight: 800; letter-spacing: 0.05em; backdrop-filter: blur(4px);
+}
+
+.cine-flash {
+  position: fixed; inset: 0; background: #fff; z-index: 100; pointer-events: none;
+}
+
+/* =========================================================
+   SCENE 2: PERCEPTION (OCR Tokens)
+   ========================================================= */
+.ocr-token {
+  position: absolute; background: rgba(255,255,255,0.1); border-left: 3px solid var(--c-blue);
+  padding: 8px 16px; font-family: monospace; font-size: 14px; font-weight: 700;
+  backdrop-filter: blur(4px); border-radius: 0 4px 4px 0; box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* =========================================================
+   SCENE 3: CLASSIFICATION
+   ========================================================= */
+.flow-diagram { display: flex; flex-direction: column; align-items: flex-start; width: 100%; }
+.flow-inputs { display: flex; gap: 12px; }
+.flow-node {
+  padding: 12px 16px; background: #fff; border: 1px solid #ddd; border-radius: 6px;
+  font-size: 12px; font-weight: 800; letter-spacing: 0.05em; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.flow-node--blue { background: var(--c-blue); color: #fff; border: none; }
+.flow-node--green { background: var(--c-green); color: #fff; border: none; }
+
+/* =========================================================
+   SCENE 4: EVIDENCE BRIDGE
+   ========================================================= */
+.evidence-pipeline { width: 100%; }
+.ep-flow { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 11px; font-weight: 700; color: var(--c-blue); }
+.ep-flow span { background: rgba(21,94,239,0.1); padding: 4px 8px; border-radius: 4px; }
+.ep-raw { font-family: monospace; font-size: 18px; font-weight: 700; padding: 12px; border: 1px dashed #ccc; display: inline-block; }
+.ep-structured { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.05); }
+.ep-structured div { display: flex; flex-direction: column; gap: 4px; }
+.ep-structured label { font-size: 10px; color: #888; font-weight: 700; }
+.ep-structured strong { font-size: 14px; }
+
+/* =========================================================
+   SCENE 5: FUSION
+   ========================================================= */
+.fusion-sources { display: flex; gap: 16px; justify-content: center; }
+.fusion-card {
+  background: #fff; border: 1px solid rgba(0,0,0,0.1); padding: 16px; border-radius: 8px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.fusion-card label { font-size: 10px; font-weight: 800; color: #666; }
+.fusion-card strong { font-size: 16px; }
+.fusion-result { padding: 12px 24px; background: var(--c-ink); color: #fff; font-weight: 800; font-size: 14px; border-radius: 8px; }
+.fusion-alert { background: var(--c-amber); color: #000; }
+
+/* =========================================================
+   SCENE 6: SELECTIVE AI
+   ========================================================= */
+.ai-paths { display: flex; flex-direction: column; width: 100%; }
+.ai-path { padding: 16px; border-radius: 8px; border: 1px solid #333; background: rgba(255,255,255,0.05); display: flex; flex-direction: column; gap: 8px; }
+.ai-path label { font-size: 11px; font-weight: 800; letter-spacing: 0.05em; color: #aaa; margin-bottom: 4px; }
+.ai-path div { font-size: 14px; font-weight: 700; }
+.ai-path--green { border-color: rgba(22,163,74,0.3); }
+.ai-path--amber { border-color: rgba(245,158,11,0.3); }
+.ai-gemini { display: inline-block; padding: 4px 8px; background: rgba(21,94,239,0.2); color: var(--c-blue); font-size: 11px !important; border-radius: 4px; align-self: flex-start; }
+
+/* =========================================================
+   SCENE 7: LAW
+   ========================================================= */
+.law-engine { display: flex; flex-direction: column; gap: 12px; width: 100%; }
+.law-row { display: flex; align-items: center; justify-content: space-between; padding: 16px; background: #fff; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,0.02); }
+.law-rule { padding: 4px 8px; background: #eee; font-family: monospace; border-radius: 4px; font-size: 12px; }
+
+/* =========================================================
+   SCENE 8: PHYSICAL
+   ========================================================= */
+.physical-measure { display: flex; align-items: stretch; gap: 24px; width: 100%; }
+.scale-visual { display: flex; flex-direction: column; background: #fff; border-radius: 12px; padding: 16px; border: 1px solid #ddd; box-shadow: 0 12px 24px rgba(0,0,0,0.05); align-items: center; justify-content: center; min-width: 120px;}
+.scale-screen { font-family: monospace; font-size: 24px; font-weight: 700; color: var(--c-amber); background: #111; padding: 8px 16px; border-radius: 4px; margin-bottom: 8px; }
+.scale-label { font-size: 10px; font-weight: 800; color: #888; }
+.scale-compare { display: flex; flex-direction: column; justify-content: center; gap: 8px; font-size: 14px; font-weight: 700; }
+.scale-result { margin-top: 8px; color: var(--c-red); font-weight: 900; }
+
+/* =========================================================
+   SCENE 9: DEPTH / AR (Wireframe)
+   ========================================================= */
+/* Apply wireframe to the 3D package */
+.wireframe .pkg-front, .wireframe .pkg-right, .wireframe .pkg-left, .wireframe .pkg-top, .wireframe .pkg-bottom {
+  background: rgba(0,0,0,0.2) !important; border: 1px solid var(--c-amber) !important; box-shadow: none !important; color: transparent !important;
+}
+.wireframe .pkg-f-brand, .wireframe .pkg-r-title, .wireframe .pkg-r-row, .wireframe .pkg-r-divider, .wireframe .pkg-r-mrp, .wireframe .pkg-r-qty, .wireframe .pkg-r-date, .wireframe .pkg-r-batch, .wireframe .pkg-r-care, .wireframe .pkg-r-barcode {
+  opacity: 0 !important;
+}
+.pkg-depth-grid { position: absolute; inset: 0; border-radius: 4px; overflow: hidden; z-index: 20; pointer-events: none; }
+.pkg-depth-grid .grid-h { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(245,158,11,0.3) 19px, rgba(245,158,11,0.3) 20px); }
+.pkg-depth-grid .grid-v { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(245,158,11,0.3) 19px, rgba(245,158,11,0.3) 20px); }
+.depth-measure { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--c-amber); color: #000; font-size: 11px; font-weight: 800; padding: 4px 8px; border-radius: 4px; }
+
+/* =========================================================
+   SCENE 10: OFFLINE
+   ========================================================= */
+.offline-badge { display: inline-block; padding: 8px 16px; background: rgba(0,0,0,0.05); border: 1px solid #ccc; font-size: 12px; font-weight: 800; border-radius: 20px; }
+.offline-badge--green { background: rgba(22,163,74,0.1); border-color: var(--c-green); color: var(--c-green); }
+.offline-db { font-size: 14px; font-weight: 700; padding: 16px; background: #fff; border-radius: 8px; border: 1px solid #ddd; }
+
+/* =========================================================
+   SCENE 11: COMMAND
+   ========================================================= */
+.command-center { width: 100%; display: flex; flex-direction: column; align-items: center; }
+.cc-summary { display: flex; gap: 16px; font-size: 14px; font-weight: 700; color: var(--c-green); }
+.cc-split { display: flex; gap: 24px; text-align: left; }
+.cc-split > div { display: flex; flex-direction: column; gap: 8px; }
+.cc-split label { font-size: 11px; font-weight: 800; color: #888; }
+.cc-badge { padding: 8px 16px; font-size: 13px; font-weight: 800; border-radius: 4px; }
+.cc-badge--amber { background: var(--c-amber); color: #000; }
+.cc-btn { padding: 8px 16px; font-size: 13px; font-weight: 800; border-radius: 4px; }
+.cc-btn--green { background: var(--c-green); color: #fff; }
+
+/* =========================================================
+   SCENE 12: LEARNING
+   ========================================================= */
+.learning-loop { display: flex; flex-direction: column; align-items: center; width: 100%; position: relative; }
+.ll-flow { display: flex; flex-direction: column; align-items: center; gap: 12px; position: relative; z-index: 2; }
+.ll-node { padding: 10px 16px; background: rgba(255,255,255,0.1); border: 1px solid #333; border-radius: 6px; font-size: 12px; font-weight: 800; }
+.ll-node--blue { background: var(--c-blue); border-color: var(--c-blue); }
+
+/* FINAL */
+.final-pipeline { font-size: 12px; font-weight: 800; letter-spacing: 0.1em; opacity: 0.6; color: #fff; display: flex; gap: 12px; align-items: center; justify-content: center;}
+
+/* =========================================================
+   SMART CAMERA TELEMETRY
+   ========================================================= */
+.pkg-cam-highlight {
+  position: absolute; inset: -4px;
+  border: 1px solid var(--c-blue);
+  background: rgba(21,94,239,0.1);
+  box-shadow: inset 0 0 8px rgba(21,94,239,0.2);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.cam-telemetry {
+  position: absolute; left: 8vw; top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 24px;
+  font-family: monospace; font-size: 11px;
+  letter-spacing: 0.05em; color: var(--c-ink); width: 220px;
+  z-index: 30;
+  pointer-events: none;
+}
+.cam-t-label { font-size: 12px; font-weight: 800; border-left: 3px solid var(--c-blue); padding-left: 12px; }
+.cam-t-label span { font-size: 9px; font-weight: 600; opacity: 0.6; }
+.cam-t-block { display: flex; flex-direction: column; gap: 6px; padding: 12px; background: rgba(255,255,255,0.4); backdrop-filter: blur(8px); border-radius: 6px; border: 1px solid rgba(0,0,0,0.05); }
+.cam-t-header { font-weight: 800; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 4px; margin-bottom: 4px; font-family: var(--f-grotesk); }
+.cam-t-row { display: flex; justify-content: space-between; font-weight: 600; opacity: 0.8; }
+.cam-t-row span:last-child { color: var(--c-blue); font-weight: 800; }
+.cam-t-row.c-green span:last-child { color: var(--c-green); }
+
+/* Mobile overrides */
+@media (max-width: 768px) {
+  .cine-text-block { max-width: 80vw; left: 10vw; right: 10vw; text-align: center; align-items: center; }
+  .cine-text-block--right { right: 10vw; left: 10vw; }
+  .cine-h1 { font-size: clamp(32px, 10vw, 48px); }
+  .cine-h2 { font-size: clamp(24px, 8vw, 36px); }
+  .pkg-3d-scene { transform: scale(0.8); }
+  .cine-phone-overlay { transform: scale(0.7); }
+  .cam-telemetry { left: 4vw; width: 180px; transform: scale(0.8) translateY(-50%); transform-origin: left center; }
+}
